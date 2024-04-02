@@ -1,0 +1,279 @@
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*body {
+	background: #081b29;
+	color: #ededed;
+}*/
+.navbar-expand-lg {
+	background: white;
+}
+.navbar-nav .nav-item a {
+	text-decoration: none;
+	font-weight: 400;
+	color: rgb(240 241 243);
+}
+.ed {
+	font-weight: 900;
+	color: #081b29;
+	font-size: clamp(14px, 2vw, 19.2px);
+}
+.nav-btn {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+}
+.cards {
+	display: block;
+	margin: 0 auto;
+}
+.card-link {
+	color: #192841;
+	font-weight: 600;
+}
+a.ed {
+	pointer-events: none;
+}
+@media (max-width: 576px) {
+	.hero {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 80px;
+		height: 450px;
+	}
+	.navbar {
+		background: #192841 !important;
+	}
+	.ed {
+		color: rgb(240 241 243) !important;
+	}
+	.nav-btn{
+  	background-color: rgb(220, 221, 223); !important;
+	}
+	.navbar-height {
+		width: 100%;
+		height: 55px;
+	}
+	.haf {
+		padding: 0 30px 30px 30px !important;
+	}
+	.run {
+		width: 100%;
+		max-width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+	.lifestyle, .nutrition, .workout {
+		margin-top: 20px;
+	}
+	.l-icon, .n-icon {
+		font-size: 2.3rem !important;
+		padding: 12px !important;
+	}
+	.w-icon {
+		font-size: 2rem !important;
+		padding: 13px !important;
+	}
+	.card-subtitle {
+		font-size: .9rem;
+	}
+	.about {
+		margin-top: 20px !important;
+	}
+	.n-haf {
+		padding-top: 20px !important;
+	}
+	.w-haf {
+		padding-top: 20px !important;
+	}
+
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.l-icon, .n-icon, .w-icon {
+		height: 80px !important;		
+	}
+	.card-subtitle {
+		font-size: .7rem;
+	}
+	.card-title {
+		font-size: .8rem !important;
+	}
+	.haf-lifestyle {
+		margin-top: 50px;
+	}
+	.c-s {
+		font-size: .9rem !important;
+	}
+	.col-card {
+		padding-top: 140px;
+	}
+	.hafs {
+		padding-left: 20px;
+	}
+
+}
+@media (min-width: 577px) and (max-width: 991px) {
+	.hero {
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 80px;
+		height: 500px;
+	}
+	.navbar {
+		background: white !important;
+	}
+	.navbar-height {
+		width: 100%;
+		height: 75px;
+	}
+	.run {
+		width: 100%; 
+		max-width: 400px;
+		display: block;
+		margin: 0 auto;
+	}
+	.haf-img {
+		padding-top: 50px;
+	}
+	.lifestyle, .nutrition, .workout {
+		margin-top: 20px;
+	}
+	.about {
+		margin-top: 50px;
+	}
+	.navbar-height {
+		width: 100%;
+		height: 55px;
+	}
+	.ed {
+		margin-left: 20px;
+	}
+	.nav-btn {
+		margin-right: 20px;
+	}
+
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+	.about {
+		margin-top: 0 !important;
+	}
+	.haf {
+		margin-top: 20px;
+	}
+	.col-card {
+		padding-top: 30px;
+	}
+}
+
+
+
+/*Large Screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.hero {
+		padding-top: 200px;
+		padding-left: 60px;
+		height: 700px;
+	}
+	.ed {
+		padding-left: 48px;
+		color: rgb(240 241 243);
+	}
+	.run {
+		width: 100%; 
+		max-width: 400px;
+	}
+	.haf {
+		padding: 50px;
+	}
+	.haf-img {
+		padding-top: 50px;
+	}
+}
+
+@media (min-width: 992px) {
+	.hero {
+		padding-top: 200px;
+		padding-left: 60px;
+		height: 540px;
+	}
+	.ed {
+		padding-left: 48px;
+		color: rgb(240 241 243);
+	}
+	.run {
+		width: 100%; 
+		max-width: 400px;
+	}
+	.haf {
+		padding: 50px;
+	}
+	.about {
+		margin-top: 50px;
+	}
+	.haf-lifestyle {
+		padding-top: 40px !important;
+	}
+	.col-card {
+		padding-top: 65px;
+	}
+	.navbar {
+		transition: background-color 0.4s ease-in-out;
+	}
+	.scrolled {
+		background-color: #192841 !important;
+		opacity: 0.98;
+	}
+
+}
+
+@media (min-width: 1200px) {
+	.col-card {
+		padding-top: 50px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

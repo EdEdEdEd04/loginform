@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -9,239 +8,296 @@ html {
 	font-family: 'Poppins', sans-serif;
 }
 
-/*body {
-	background: #081b29;
-	color: #ededed;
-}*/
-.navbar-expand-lg {
-	background: white;
+
+
+
+
+
+
+@media (max-width: 354px) {
+
+	.img-fluid {
+    width: 100% !important;
+    max-width: 250px !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+	.btn-signin {
+		padding: 4px 65px 4px 65px !important;
+	}
+
+	.btn-help {
+    padding: 4px 30px 4px 30px !important;
+  }
+
+  .login {
+		padding: 10px 20px 20px 20px !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+	}
+
+	.container {
+		box-shadow: none !important;
+	}
+
+	.card {
+		width: 20rem !important;
+		margin-top: 10px;
+	}
+
+  .main {
+  	display: none;
+  }
+
+  body {
+  	background: #F5F9FC;
+  }
+
 }
-.navbar-nav .nav-item a {
-	text-decoration: none;
-	font-weight: 400;
-	color: rgb(240 241 243);
+
+@media (min-width: 355px) and (max-width: 576px) {
+
+	.img-fluid {
+    width: 100% !important;
+    max-width: 250px !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+	.login {
+		padding: 10px 20px 20px 20px !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+	}
+
+	.container {
+		box-shadow: none !important;
+	}
+
+	.card {
+		width: 20rem !important;
+		margin-top: 10px;
+	}
+
+	.btn-signup {
+
+	}
+
+	.btn-signin {
+		padding: 4px 65px 4px 65px !important;
+	}
+
+	.btn-help {
+    padding: 4px 30px 4px 30px !important;
+  }
+
+  .login-center {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  .main {
+  	display: none;
+  }
+
+  body {
+  	background: #F5F9FC;
+  }
+
+
+
 }
-.ed {
-	font-weight: 900;
-	color: #081b29;
-	font-size: clamp(14px, 2vw, 19.2px);
-}
-.nav-btn {
-  padding: 0.2rem 0.4rem;
-  font-size: 0.8rem;
-}
-.cards {
-	display: block;
-	margin: 0 auto;
-}
-.card-link {
-	color: #192841;
-	font-weight: 600;
-}
-a.ed {
-	pointer-events: none;
-}
-@media (max-width: 576px) {
-	.hero {
-		text-align: center;
-		padding-left: 20px;
-		padding-right: 20px;
-		padding-top: 80px;
-		height: 450px;
+
+
+@media (min-width: 400px) and (max-width: 576px) {
+
+	.card {
+		width: 25rem !important;
 	}
-	.navbar {
-		background: #192841 !important;
+
+	.img-fluid {
+		width: 100% !important;
+    max-width: 300px !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
 	}
-	.ed {
-		color: rgb(240 241 243) !important;
-	}
-	.nav-btn{
-  	background-color: rgb(220, 221, 223); !important;
-	}
-	.navbar-height {
-		width: 100%;
-		height: 55px;
-	}
-	.haf {
-		padding: 0 30px 30px 30px !important;
-	}
-	.run {
-		width: 100%;
-		max-width: 300px;
-		display: block;
-		margin: 0 auto;
-	}
-	.lifestyle, .nutrition, .workout {
-		margin-top: 20px;
-	}
-	.l-icon, .n-icon {
-		font-size: 2.3rem !important;
-		padding: 12px !important;
-	}
-	.w-icon {
-		font-size: 2rem !important;
-		padding: 13px !important;
-	}
-	.card-subtitle {
-		font-size: .9rem;
-	}
-	.about {
-		margin-top: 20px !important;
-	}
-	.n-haf {
-		padding-top: 20px !important;
-	}
-	.w-haf {
-		padding-top: 20px !important;
+
+	.btn-signin {
+		padding: 4px 85px 4px 85px !important;
 	}
 
 
-}
-@media (min-width: 768px) and (max-width: 991px){
-	.l-icon, .n-icon, .w-icon {
-		height: 80px !important;		
-	}
-	.card-subtitle {
-		font-size: .7rem;
-	}
-	.card-title {
-		font-size: .8rem !important;
-	}
-	.haf-lifestyle {
-		margin-top: 50px;
-	}
-	.c-s {
-		font-size: .9rem !important;
-	}
-	.col-card {
-		padding-top: 140px;
-	}
-	.hafs {
-		padding-left: 20px;
-	}
 
-}
-@media (min-width: 577px) and (max-width: 991px) {
-	.hero {
-		text-align: center;
-		padding-left: 40px;
-		padding-right: 40px;
-		padding-top: 80px;
-		height: 500px;
-	}
-	.navbar {
-		background: white !important;
-	}
-	.navbar-height {
-		width: 100%;
-		height: 75px;
-	}
-	.run {
-		width: 100%; 
-		max-width: 400px;
-		display: block;
-		margin: 0 auto;
-	}
-	.haf-img {
-		padding-top: 50px;
-	}
-	.lifestyle, .nutrition, .workout {
-		margin-top: 20px;
-	}
-	.about {
-		margin-top: 50px;
-	}
-	.navbar-height {
-		width: 100%;
-		height: 55px;
-	}
-	.ed {
-		margin-left: 20px;
-	}
-	.nav-btn {
-		margin-right: 20px;
-	}
 
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
-	.about {
-		margin-top: 0 !important;
+	
+	.img-fluid {
+    width: 100% !important;
+    max-width: 330px !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .login {
+		padding: 10px 20px 20px 20px !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
 	}
-	.haf {
-		margin-top: 20px;
+
+	.container {
+		box-shadow: none !important;
 	}
-	.col-card {
-		padding-top: 30px;
+
+	.card {
+		width: 28rem !important;
+		margin-top: 10px;
 	}
+
+	body {
+  	background: #F5F9FC;
+  }
+
+  .main {
+  	display: none;
+  }
+
+  .login-center {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  .btn-signin {
+		padding: 4px 100px 4px 100px !important;
+		margin-left: 5px;
+	}
+	.btn-help {
+    padding: 4px 55px 4px 55px !important;
+  }
+	
 }
 
-
-
-/*Large Screen*/
-@media (min-width: 992px) and (max-width: 1199px) {
-	.hero {
-		padding-top: 200px;
-		padding-left: 60px;
-		height: 700px;
+@media (min-width: 768px) and (max-width: 991px) {
+	.comp {
+		display: none;
 	}
-	.ed {
-		padding-left: 48px;
-		color: rgb(240 241 243);
+	.img-fluid {
+		margin-top: 70px !important;
 	}
-	.run {
-		width: 100%; 
-		max-width: 400px;
-	}
-	.haf {
-		padding: 50px;
-	}
-	.haf-img {
-		padding-top: 50px;
-	}
-}
-
-@media (min-width: 992px) {
-	.hero {
-		padding-top: 200px;
-		padding-left: 60px;
-		height: 540px;
-	}
-	.ed {
-		padding-left: 48px;
-		color: rgb(240 241 243);
-	}
-	.run {
-		width: 100%; 
-		max-width: 400px;
-	}
-	.haf {
-		padding: 50px;
-	}
-	.about {
+	.card {
+		width: 20rem !important;
 		margin-top: 50px;
 	}
-	.haf-lifestyle {
-		padding-top: 40px !important;
+	.login-center {
+  	display: flex;
+  	justify-content: center;
+  }
+  .btn-signin {
+		padding: 4px 60px 4px 60px !important;
+		margin-left: 5px;
 	}
-	.col-card {
-		padding-top: 65px;
-	}
-	.navbar {
-		transition: background-color 0.4s ease-in-out;
-	}
-	.scrolled {
-		background-color: #192841 !important;
-		opacity: 0.98;
-	}
+	.btn-help {
+    padding: 4px 30px 4px 30px !important;
+  }
+  .login {
+  	padding-top: 20px;
+  }
+  .btn-signup {
+  	margin-right: 5px;
+  }
+  .info {
+  	font-size: .8rem;
+  }
+}
 
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.comp {
+		display: none;
+	}
+	.img-fluid {
+		margin-top: 70px !important;
+	}
+	.card {
+		width: 25rem !important;
+		margin-top: 50px;
+	}
+	.login-center {
+  	display: flex;
+  	justify-content: center;
+  }
+  .btn-signin {
+		padding: 4px 100px 4px 100px !important;
+		margin-left: 5px;
+	}
+	.btn-help {
+    padding: 4px 35px 4px 35px !important;
+  }
+  .login {
+  	padding-top: 20px;
+  }
+  .btn-signup {
+  	margin-right: 5px;
+  }
+	
 }
 
 @media (min-width: 1200px) {
-	.col-card {
-		padding-top: 50px !important;
+
+	.comp {
+		display: none;
 	}
+	.img-fluid {
+		margin-top: 70px !important;
+	}
+	.card {
+		width: 25rem !important;
+		margin-top: 50px;
+	}
+	.login-center {
+  	display: flex;
+  	justify-content: center;
+  	padding-right: 50px !important;
+  }
+  .btn-signin {
+		padding: 4px 100px 4px 100px !important;
+		margin-left: 5px;
+	}
+	.btn-help {
+    padding: 4px 35px 4px 35px !important;
+  }
+  .login {
+  	padding-top: 20px;
+  }
+  .btn-signup {
+  	margin-right: 5px;
+  }
+
+  .card-title {
+  	font-size: 2rem !important;
+  }
+
+  .card-body p {
+  	font-size: 1.2rem !important;
+  }
+  .form-label {
+  	font-size: 1rem !important;
+  }
+  .ps-1 p {
+  	font-size: 1rem !important;
+  }
+	
 }
+
+
+
+
 
 
 

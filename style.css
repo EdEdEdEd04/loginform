@@ -87,11 +87,11 @@ html {
 	}
 
 	.btn-signin {
-		padding: 4px 65px 4px 65px !important;
+		padding: 6px 105px 6px 105px !important;
 	}
 
 	.btn-help {
-    padding: 4px 30px 4px 30px !important;
+    padding: 6px 30px 6px 30px !important;
   }
 
   .login-center {
@@ -126,9 +126,6 @@ html {
     margin-top: 10px;
 	}
 
-	.btn-signin {
-		padding: 4px 85px 4px 85px !important;
-	}
 
 
 
